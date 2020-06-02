@@ -1,0 +1,28 @@
+{
+    "name": "snobole/payment",
+    "description": "Payment Library by Snobole",
+    "keywords": ["snobble-payment", "php-mpesa"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://raiomido.com",
+    "config": {
+        "platform": {
+            "php": "7.2.5"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rai Omido",
+            "email": "rai@raiomidio.com"
+        }
+    ],
+    "require": {
+      "ext-json": "*",
+      "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Snobole\\": "src/"
+        }
+    }
+}
